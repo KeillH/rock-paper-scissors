@@ -45,3 +45,14 @@ img {
     padding: 10px 20px;
     border: 2px solid white;
 }
+.outcome {
+    margin:25px;
+    text-align: center;
+    height: 40px;
+}
+
+.score-board{
+    display: flex;
+    flex-direction: column;
+
+}
