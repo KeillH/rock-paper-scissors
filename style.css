@@ -1,0 +1,47 @@
+* {
+    background-color: black;
+    color: white;
+}
+
+.header-title {
+    text-align: center;
+}
+
+.tiles {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    padding: 0px 50px;
+}
+
+.tile{
+    height: 200px;
+    width: 200px;
+    transition: all .07s ease;
+}
+img {
+    width: 200px;
+    height: 200px;
+}
+.selected {
+    transform: scale(1.1);
+    border-color: yellow;
+    box-shadow: 0 0 2rem yellow;
+}
+
+.selected-option {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.button-div{
+    display: flex;
+    justify-content: center;
+}
+.play {
+    padding: 10px 20px;
+    border: 2px solid white;
+}
